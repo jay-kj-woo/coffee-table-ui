@@ -19,7 +19,7 @@ export const ProductCard = ({ product }: Props) => {
   const { title, price, imageUrl, color, discount } = product;
 
   return (
-    <div className="relative flex h-full w-[150px] flex-col items-center gap-[6px] sm:w-[180px]">
+    <div className="relative flex h-full w-[150px] flex-col items-center gap-[6px] sm:w-[180px] md:w-[190px]">
       <CardImage
         imageSrc={`/assets/images/${imageUrl}`}
         imageAlt={title}
