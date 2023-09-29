@@ -16,17 +16,17 @@ const COLOR_VARIANTS: Record<Colors, string> = {
   Eclipse: 'bg-Eclipse',
 };
 export const ProductCard = ({ product }: Props) => {
-  const { title, price, imageUrl, color } = product;
+  const { title, price, imageUrl, color, discount } = product;
 
   return (
-    <div className="relative flex h-full w-[150px] flex-col items-center justify-evenly gap-[6px]">
+    <div className="relative flex h-full w-[150px] flex-col items-center gap-[6px]">
       <CardImage
         imageSrc={`/assets/images/${imageUrl}`}
         imageAlt={title}
         floatText={color}
         floatColor={COLOR_VARIANTS[color as Colors]}
       />
-      <CardDescription title={title} price={price} />
+      <CardDescription title={title} price={price} discount={discount} />
     </div>
   );
 };
