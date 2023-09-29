@@ -16,6 +16,11 @@ const campton = localFont({
 const larsseit = localFont({
   src: [
     {
+      path: '../public/assets/fonts/Larsseit/Larsseit-Light.otf',
+      weight: '300',
+      style: 'normal',
+    },
+    {
       path: '../public/assets/fonts/Larsseit/Larsseit.otf',
       weight: '400',
       style: 'normal',

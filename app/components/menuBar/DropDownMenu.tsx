@@ -44,28 +44,28 @@ export const DropDownMenu = ({ setCurrentCategory }: Props) => {
         <div className="absolute right-0 z-20 flex w-full flex-col rounded-b-[4px] bg-dark-500 pb-4 pl-8 pr-4  pt-8">
           <a
             href="#coffeeTables"
-            className=" pb-10  font-larsseit text-[18px] font-normal leading-none text-light-700"
+            className=" pb-10  font-larsseit text-[18px] font-light leading-none text-light-700"
             onClick={handleClick}
           >
             Coffee Tables
           </a>
           <a
             href="#sideTables"
-            className=" pb-10  font-larsseit text-[18px] font-normal leading-none text-light-700"
+            className=" pb-10  font-larsseit text-[18px] font-light leading-none text-light-700"
             onClick={handleClick}
           >
             Side Tables
           </a>
           <a
             href="#mediaUnits"
-            className=" pb-10  font-larsseit text-[18px] font-normal leading-none text-light-700"
+            className=" pb-10  font-larsseit text-[18px] font-light leading-none text-light-700"
             onClick={handleClick}
           >
             Media Units
           </a>
           <a
             href="#tableSets"
-            className=" pb-10  font-larsseit text-[18px] font-normal leading-none text-light-700"
+            className=" pb-10  font-larsseit text-[18px] font-light leading-none text-light-700"
             onClick={handleClick}
           >
             Table Sets

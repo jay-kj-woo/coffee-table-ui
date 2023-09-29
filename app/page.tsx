@@ -17,7 +17,7 @@ export default function Home() {
           <h1 className="font-quincyCF text-[44px] font-normal leading-[46px] text-main-500">
             Tables
           </h1>
-          <span className=" font-larsseit text-lg font-medium text-dark-500">
+          <span className=" font-larsseit text-lg font-normal text-dark-500">
             A perfect pairing to your sofa.
           </span>
         </div>

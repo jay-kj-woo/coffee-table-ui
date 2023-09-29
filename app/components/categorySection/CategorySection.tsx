@@ -33,7 +33,7 @@ export const CagetorySection = ({
           {title}
         </div>
       </div>
-      <div className="col relative grid grid-cols-2  justify-items-center gap-x-4 gap-y-10 px-4  py-6">
+      <div className="col relative grid grid-cols-2  justify-center justify-items-center gap-x-4 gap-y-10 px-4  py-4">
         {products.map((product) => (
           <ProductCard key={`${title}_${product.id}`} product={product} />
         ))}
