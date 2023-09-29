@@ -13,7 +13,7 @@ export const HorizontalMenu = ({
     setCurrentCategory(e.currentTarget.hash as CategoryHash);
   };
   return (
-    <div className="flex w-full items-center  justify-between">
+    <div className="flex w-full items-center  justify-between xl:justify-start xl:gap-8">
       <a
         href="#coffeeTables"
         className={`   font-larsseit text-[18px] font-light leading-none text-light-700 ${
