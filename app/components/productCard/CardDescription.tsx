@@ -10,15 +10,13 @@ export const CardDescription = ({ title, price, discount }: Prop) => {
       <div className="w-full cursor-pointer font-campton text-xs  font-semibold text-main-500">
         {title}
       </div>
-      <div className="flex h-[26px]  items-center gap-[2px] font-larsseit">
-        <span className=" text-[8px] text-main-300 ">{price}</span>
-        <span className=" text-[8px] text-main-300 ">|</span>
+      <div className="flex h-[26px] items-center gap-[2px] font-larsseit text-[8px] sm:text-[11px]">
+        <span className="  text-main-300 ">{price}</span>
+        <span className="  text-main-300 ">|</span>
         {discount ? (
-          <span className=" font-larsseit text-[8px] font-medium text-[#b35c1e]">
-            {discount}
-          </span>
+          <span className="   font-medium text-[#b35c1e]">{discount}</span>
         ) : (
-          <span className=" relative flex items-center gap-1 text-[8px] font-bold text-dark-500 ">
+          <span className=" relative flex items-center gap-1  font-medium text-dark-500 ">
             Customise
             <div className=" -translate-y-[1px] text-[9px]">
               <svg
@@ -41,7 +39,7 @@ export const CardDescription = ({ title, price, discount }: Prop) => {
         )}
       </div>
       {discount && (
-        <span className=" relative flex items-center gap-1 text-[8px] font-bold text-dark-500 ">
+        <span className=" relative flex items-center gap-1  text-[8px] font-medium text-dark-500 sm:text-[11px] ">
           Customise
           <div className=" -translate-y-[1px] text-[9px]">
             <svg
