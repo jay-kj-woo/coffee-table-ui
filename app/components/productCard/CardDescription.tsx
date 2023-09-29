@@ -10,7 +10,7 @@ export const CardDescription = ({ title, price, discount }: Prop) => {
       <div className="w-full cursor-pointer font-campton text-xs font-semibold text-main-500 md:text-[14px]">
         {title}
       </div>
-      <div className="flex h-[26px] items-center gap-[2px] font-larsseit text-[8px] sm:text-[11px]">
+      <div className="md2lg:h-[18px] md2lg:text-[14px]  md2lg:gap-2 flex h-[26px] items-center gap-[2px] font-larsseit text-[8px] sm:text-[11px]">
         <span className="  text-main-300 ">{price}</span>
         <span className="  text-main-300 ">|</span>
         {discount ? (
@@ -18,7 +18,7 @@ export const CardDescription = ({ title, price, discount }: Prop) => {
         ) : (
           <span className=" relative flex items-center gap-1  font-medium text-dark-500 ">
             Customise
-            <div className=" -translate-y-[1px] text-[9px]">
+            <div className=" md2lg:text-[16px] -translate-y-[1px]  text-[9px]">
               <svg
                 className=" h-[1em] w-[1em] "
                 focusable="false"
@@ -39,9 +39,9 @@ export const CardDescription = ({ title, price, discount }: Prop) => {
         )}
       </div>
       {discount && (
-        <span className=" relative flex items-center gap-1  text-[8px] font-medium text-dark-500 sm:text-[11px] ">
+        <span className=" md2lg:text-[14px] relative flex items-center gap-1  text-[8px] font-medium text-dark-500 sm:text-[11px] ">
           Customise
-          <div className=" -translate-y-[1px] text-[9px]">
+          <div className=" md2lg:text-[16px] -translate-y-[1px] text-[9px]">
             <svg
               className=" h-[1em] w-[1em] "
               focusable="false"
