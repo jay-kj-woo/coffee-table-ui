@@ -15,7 +15,7 @@ export const CagetorySection = ({
   products,
   setCurrentCategory,
 }: Props) => {
-  const { ref, inView, entry } = useInView({ threshold: 0.15 });
+  const { ref, inView, entry } = useInView({ threshold: 0.17 });
   useEffect(() => {
     if (inView && entry) {
       setCurrentCategory(`#${entry.target.id}` as CategoryHash);

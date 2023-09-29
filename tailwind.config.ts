@@ -13,6 +13,7 @@ const config: Config = {
       md2lg: '600px',
       lg: '768px',
       xl: '1024px',
+      tablet: '870px',
     },
     colors: {
       main: {

@@ -19,7 +19,7 @@ export const DropDownMenu = ({ setCurrentCategory }: Props) => {
   };
 
   return (
-    <div className="">
+    <div className=" tablet:hidden tablet:h-0 tablet:w-0">
       <div>
         <button onClick={toggleMenuBar}>
           <div className={`${showMenu ? ' rotate-180' : ''} `}>
