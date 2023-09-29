@@ -20,7 +20,7 @@ export const CardImage = ({
         alt={imageAlt}
         width={500}
         height={500}
-        className="   max-h-full min-h-full min-w-full max-w-full rounded-xl bg-light-500 object-contain lg:rounded-[20px]"
+        className="   max-h-full min-h-full min-w-full max-w-full rounded-xl bg-light-500 object-contain xl:rounded-[20px]"
       />
 
       <div className=" md2lg:bottom-3 md2lg:right-3 absolute bottom-0 right-0 z-10 flex items-end p-1">

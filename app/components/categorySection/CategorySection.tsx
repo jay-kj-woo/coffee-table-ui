@@ -29,7 +29,7 @@ export const CagetorySection = ({
   return (
     <section id={formattedTitle} ref={ref}>
       <div className="px-0 pb-0 pt-8 ">
-        <div className="text-center font-quincy text-[32px] font-bold text-main-500 lg:px-20 lg:text-left lg:text-[48px]">
+        <div className="text-center font-quincy text-[32px] font-bold text-main-500 xl:px-20 xl:text-left xl:text-[48px]">
           {title}
         </div>
       </div>

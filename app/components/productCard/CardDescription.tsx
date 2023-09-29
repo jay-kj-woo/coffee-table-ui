@@ -7,7 +7,7 @@ interface Prop {
 export const CardDescription = ({ title, price, discount }: Prop) => {
   return (
     <div className="relative flex max-h-[47px] w-full flex-col justify-start  gap-[2px]">
-      <div className="w-full cursor-pointer font-campton text-xs font-semibold text-main-500 md:text-[14px] lg:text-[16px]">
+      <div className="w-full cursor-pointer font-campton text-xs font-semibold text-main-500 md:text-[14px] xl:text-[16px]">
         {title}
       </div>
       <div className="md2lg:h-[18px] md2lg:text-[14px]  md2lg:gap-2 flex h-[26px] items-center gap-[2px] font-larsseit text-[8px] sm:text-[11px]">
