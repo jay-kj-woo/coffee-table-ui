@@ -14,13 +14,13 @@ export const CardImage = ({
   floatColor,
 }: Prop) => {
   return (
-    <div className="md2lg:h-[300px] relative h-[122px] w-full md:h-[142px] lg:h-[160px]">
+    <div className="md2lg:h-[300px] relative h-[122px] w-full md:h-[142px] lg:h-[160px] xl:h-[300px]">
       <Image
         src={imageSrc}
         alt={imageAlt}
         width={500}
         height={500}
-        className="   max-h-full min-h-full min-w-full max-w-full rounded-xl bg-light-500 object-contain"
+        className="   max-h-full min-h-full min-w-full max-w-full rounded-xl bg-light-500 object-contain lg:rounded-[20px]"
       />
 
       <div className=" md2lg:bottom-3 md2lg:right-3 absolute bottom-0 right-0 z-10 flex items-end p-1">

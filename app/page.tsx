@@ -12,12 +12,12 @@ export default function Home() {
 
   return (
     <main>
-      <div className="px-5 py-4">
-        <div className="flex flex-col pl-4">
-          <h1 className="font-quincyCF text-[44px] font-normal leading-[46px] text-main-500">
+      <div className="px-5 py-4 lg:px-20">
+        <div className="flex flex-col pl-4 lg:pl-0">
+          <h1 className="font-quincyCF text-[44px] font-normal leading-[46px] text-main-500 lg:text-[60px]">
             Tables
           </h1>
-          <span className=" font-larsseit text-lg font-normal text-dark-500">
+          <span className=" font-larsseit text-lg font-normal text-dark-500 lg:text-[20px]">
             A perfect pairing to your sofa.
           </span>
         </div>
