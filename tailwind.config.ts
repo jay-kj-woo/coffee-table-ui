@@ -16,6 +16,7 @@ const config: Config = {
         500: '#19142b',
       },
       light: {
+        700: '#d4dae7',
         500: '#f5f6f8',
       },
       Walnut: '#582f11',
@@ -31,6 +32,7 @@ const config: Config = {
         campton: ['var(--font-campton)'],
         larsseit: ['var(--font-larsseit)'],
         quincy: ['var(--font-quincy)'],
+        quincyCF: ['var(--font-quincyCF)'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
