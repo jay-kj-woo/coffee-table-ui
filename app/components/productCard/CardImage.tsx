@@ -14,7 +14,7 @@ export const CardImage = ({
   floatColor,
 }: Prop) => {
   return (
-    <div className="md2lg:h-[300px] relative h-[122px] w-full md:h-[142px]">
+    <div className="md2lg:h-[300px] relative h-[122px] w-full md:h-[142px] lg:h-[160px]">
       <Image
         src={imageSrc}
         alt={imageAlt}
